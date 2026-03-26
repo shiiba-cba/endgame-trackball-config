@@ -17,7 +17,7 @@
 #define TWIST_MULTIPLIER   1
 #define TWIST_DIVISOR      10
 
-#define SCROLL_MULTIPLIER  1
+#define SCROLL_MULTIPLIER  2
 #define SCROLL_DIVISOR     3
 
 #define SNIPE_MULTIPLIER   1
@@ -38,8 +38,8 @@
 				&ltm LAYER_EXTRAS MB4     &ltm LAYER_DEVICE MB5
 
 				// rotary encoders
-				&msc MOVE_Y(2000)         &kp LC(TAB)
-				&msc MOVE_Y(-2000)        &kp LC(LS(TAB))
+				&kp C_VOL_UP              &kp LC(TAB)
+				&kp C_VOL_DN              &kp LC(LS(TAB))
 			>;
 		};
 
